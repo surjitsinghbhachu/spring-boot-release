@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Spring Boot release demo";
+		return "Spring Boot release plugin demo";
 	}
 
 	public static void main(String[] args) {
