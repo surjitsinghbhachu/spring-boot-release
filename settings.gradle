@@ -1,1 +1,13 @@
+pluginManagement {
+    buildscript {
+        repositories {
+            flatDir {
+                dirs 'libs'
+            }
+        }
+        dependencies {
+            classpath ':axion-release-plugin-1.12.2-SNAPSHOT:0.0.1'
+        }
+    }
+}
 rootProject.name = 'demo'
